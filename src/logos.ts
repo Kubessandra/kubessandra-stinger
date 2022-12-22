@@ -1,0 +1,18 @@
+export const logos = [
+	'Nextjs.png',
+	'TS.png',
+	'Docker.png',
+	'Nodejs.png',
+	'Tailwind.png',
+	'Supabase.png',
+	'JS.png',
+	'Golang.png',
+	'Prisma.png',
+	'Grafana.png',
+	'Prometheus.png',
+	'Graphql.png',
+	'React.png',
+	'k8s.png',
+	'Vercel.png',
+	'Eslint.png',
+];

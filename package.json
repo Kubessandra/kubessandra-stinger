@@ -4,7 +4,7 @@
   "description": "My Remotion video",
   "scripts": {
     "start": "remotion preview",
-    "build": "remotion render MyComp out/video.mp4",
+    "build": "remotion render Stinger out/video.webm --codec vp9",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
@@ -12,6 +12,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@remotion/eslint-config": "^3.0.0",
+    "@types/lodash": "^4.14.191",
     "@types/react": "^18.0.6",
     "@types/web": "^0.0.61",
     "eslint": "^8.14.0",
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "@remotion/cli": "3.3.11",
+    "lodash": "^4.17.21",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "remotion": "3.3.11"
